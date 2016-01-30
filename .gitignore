@@ -1,6 +1,17 @@
 #################
 ## Eclipse
 #################
+**/*.o
+**/*.o.*
+**/*.eep
+**/*.elf
+**/*.hex
+**/*.lss
+**/*.lst
+**/*.map
+**/*.sym
+**/*.bin
+**/*.asm
 
 *.pydevproject
 .project
