@@ -291,7 +291,7 @@ int copyflashIfValid(void) {
 	//read image size if size is not valid (ignore it)
 	imagesize=pgm_read_word(NEW_FLASH_OFFSET);
 	Dputch('F');
-	if (imagesize>=NEW_FLASH_OFFSET) {
+	if (imagesize>=NEW_FLASH_OFFSET || imagesize == 0) {
 		Dputch('1');
 		return 1;
 	}
