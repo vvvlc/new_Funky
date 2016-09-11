@@ -57,7 +57,8 @@ VID = 0x1B4F
 # "                " 3.3V PID = 0x9203
 # MaKey MaKey PID = 0x2B74
 #PID = 0xF100
-PID = 0x9207
+#PID = 0x9207
+PID = 0x9299
 
 # MCU name
 MCU = atmega32u4
